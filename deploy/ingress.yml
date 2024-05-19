@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "app1.k8sb26.xyz"
+    - "app1.akshaik8s.xyz"
     secretName: nginx-tls
   rules:
-  - host: app1.k8sb26.xyz
+  - host: app1.akshaik8s.xyz
     http:
       paths:
       - path: /
