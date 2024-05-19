@@ -12,7 +12,7 @@ spec:
       allowEmpty: true
   project: management-tools
   source:
-    repoURL: git@github.com:SreeVeerDevOps/k8sb26-argocd.git
+    repoURL: https://github.com/Akshai183/Argocd1.git
     targetRevision: HEAD
     path: ArgoApps
   destination:
@@ -36,7 +36,7 @@ spec:
       allowEmpty: true
   project: rollingupdate
   source:
-    repoURL: git@github.com:SreeVeerDevOps/k8sb26-argocd.git
+    repoURL: https://github.com/Akshai183/Argocd1.git
     targetRevision: HEAD
     path: deploy
   destination:
@@ -57,7 +57,7 @@ spec:
       allowEmpty: true
   project: votingapp
   source:
-    repoURL: git@github.com:SreeVeerDevOps/k8sb26-argocd.git
+    repoURL: https://github.com/Akshai183/Argocd1.git
     targetRevision: HEAD
     path: votingapp
   destination:
