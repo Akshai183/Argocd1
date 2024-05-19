@@ -9,12 +9,12 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "www.k8sb26.xyz"
-    - "vote.k8sb26.xyz"
-    - "result.k8sb26.xyz"
+    - "www.akshaik8s.xyz"
+    - "vote.akshaik8s.xyz"
+    - "result.akshaik8s.xyz"
     secretName: nginx-tls
   rules:
-  - host: vote.k8sb26.xyz
+  - host: vote.akshaik8s.xyz
     http:
       paths:
       - path: /
@@ -24,7 +24,7 @@ spec:
               name: vote
               port: 
                 number: 80
-  - host: www.k8sb26.xyz
+  - host: www.akshaik8s.xyz
     http:
       paths:
       - path: /
@@ -34,7 +34,7 @@ spec:
               name: vote
               port: 
                 number: 80
-  - host: result.k8sb26.xyz
+  - host: result.akshaik8s.xyz
     http:
       paths:
       - path: /
